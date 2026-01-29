@@ -10,7 +10,7 @@ This program allows users to look up Montana county information based on license
 - ✅ Configurable output (county name, seat city, or both)
 - ✅ User-friendly interface with clear instructions
 - ✅ Error handling for invalid inputs
-- ✅ Clean exit with 'quit', 'exit', or 'q'
+- ✅ Clean exit with "exit"
 
 ## Usage
 
