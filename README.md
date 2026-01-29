@@ -125,10 +125,6 @@ The program reads the entire CSV file into memory at startup:
 - Infinite loop until user types 'quit'
 - No need to restart program
 
-**Flexible exit:**
-- Multiple exit keywords: 'quit', 'exit', 'q'
-- Case-insensitive
-
 **Configurable display:**
 - Choose what information to see
 - Can change preference without restarting
@@ -154,8 +150,6 @@ The program reads the entire CSV file into memory at startup:
 - While loop continues until user explicitly quits
 - No need to restart program
 
-### ✅ Exit on specific input
-- 'quit', 'exit', or 'q' terminates the program cleanly
 
 ### ✅ Extra Challenge: Configurable output
 - User chooses at startup what to display
@@ -212,7 +206,7 @@ Test cases to verify functionality:
 2. Invalid prefix (99, 0, -1) - should show error message
 3. Non-numeric input ("abc", "!@#") - should show error message
 4. Empty input (just Enter) - should show error message
-5. Exit commands (quit, exit, q) - should exit cleanly
+5. Exit command - should exit cleanly
 6. Display preferences - verify all three modes work
 7. Change command - verify can switch display modes
 
